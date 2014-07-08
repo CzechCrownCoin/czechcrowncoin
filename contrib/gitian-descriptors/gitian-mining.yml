@@ -3,6 +3,7 @@ name: "czechcrowncoin"
 suites:
 - "lucid"
 architectures:
+- "i386"
 - "amd64"
 packages: 
 - "libdb4.8++-dev"
