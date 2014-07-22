@@ -1192,12 +1192,8 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-<<<<<<< HEAD
-    {"czechcrowncoin.com", "seed.czechcrowncoin.com"},
-=======
     {"czechcrowncoin.no-ip.biz", "czechcrowncoin.no-ip.biz"},
     {"czechcrowncoin.com", "czechcrowncoin.com"},
->>>>>>> parent of 4d10422... changed seed server
     {NULL, NULL}
 };
 
