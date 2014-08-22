@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.7.3
+!define VERSION 0.8.7.4
 !define COMPANY "Czechcrowncoin project"
 !define URL http://www.czechcrowncoin.org/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile czechcrowncoin-0.8.7.3-win32-setup.exe
+OutFile czechcrowncoin-0.8.7.4-win32-setup.exe
 InstallDir $PROGRAMFILES\Czechcrowncoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.7.3
+VIProductVersion 0.8.7.4
 VIAddVersionKey ProductName Czechcrowncoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
